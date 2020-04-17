@@ -16,7 +16,7 @@ pipeline {
             }
             stage('Test') {
                 steps {
-                    sh './src/tests/App.test.js'
+                    sh 'C:/Users/utilisateur/Desktop/TP/src/__tests__/App.test.js'
                 }
             }
         }
